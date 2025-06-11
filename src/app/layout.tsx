@@ -1,6 +1,7 @@
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
 import CursorFollower from "@/components/CursorFollower";
+import CursorDot from "@/components/CursorDot";
 
 export const metadata = {
   title: {
@@ -17,6 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     >
       <body className="flex min-h-full flex-col">
         {/* <CursorFollower> */}
+        <CursorDot />
         <RootLayout>{children}</RootLayout>
         {/* </CursorFollower> */}
       </body>
