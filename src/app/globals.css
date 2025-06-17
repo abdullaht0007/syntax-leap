@@ -1,5 +1,32 @@
+/* globals.css */
+
+/* 1️⃣ Tailwind imports */
 @import "tailwindcss";
+
+/* 2️⃣ Hide the native cursor */
 html,
 body {
-  cursor: none; /* remove the default cursor */
+  cursor: none;
+}
+
+/* 3️⃣ Define your CSS variable for the aurora animation */
+:root {
+  --animate-aurora: aurora 60s linear infinite;
+}
+
+/* 4️⃣ Keyframes for aurora */
+@keyframes aurora {
+  from {
+    background-position: 50% 50%, 50% 50%;
+  }
+  to {
+    background-position: 350% 50%, 350% 50%;
+  }
+}
+
+/* 5️⃣ Expose a Tailwind utility class to use it */
+@layer utilities {
+  .animate-aurora {
+    animation: var(--animate-aurora);
+  }
 }

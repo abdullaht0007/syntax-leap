@@ -70,7 +70,7 @@ export default function CursorDot() {
         className="
           fixed pointer-events-none z-[9998]
           transform -translate-x-1/2 -translate-y-1/2
-          border-2 border-[#10183D]
+          border-2 border-[#000000]
           w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10
           rounded-full
         "
@@ -84,7 +84,7 @@ export default function CursorDot() {
         className="
           fixed pointer-events-none z-[9999]
           transform -translate-x-1/2 -translate-y-1/2
-          bg-[#10183D]
+          bg-[#000000]
           w-2 h-2 md:w-3 md:h-3 lg:w-4 lg:h-4
           rounded-full
         "
