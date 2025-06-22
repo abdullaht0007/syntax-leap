@@ -4,10 +4,6 @@
 @import "tailwindcss";
 
 /* 2️⃣ Hide the native cursor */
-html,
-body {
-  cursor: none;
-}
 
 /* 3️⃣ Define your CSS variable for the aurora animation */
 :root {

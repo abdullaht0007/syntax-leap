@@ -5,7 +5,7 @@ import FadeIn from "@/components/FadeIn";
 import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import logoPhobiaDark from "@/images/clients/phobia/logo-dark.svg";
-
+import WorkIndex from "./work/page";
 export default function Home() {
   return (
     <main className="text-black">
@@ -31,6 +31,7 @@ export default function Home() {
         those annoying permission dialogs.
       </Testimonials>
       <Services />
+      <WorkIndex />
       <ContactSection />
     </main>
   );

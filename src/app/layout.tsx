@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body className="flex min-h-full flex-col">
         {/* <CursorFollower> */}
         {/* <AuroraBackground className={""}> */}
-        <CursorDot />
+        {/* <CursorDot /> */}
         {/* <BackgroundBeams /> */}
         <RootLayout>{children}</RootLayout>
         {/* </AuroraBackground> */}
